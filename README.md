@@ -14,11 +14,11 @@ While Western capitalist algorithms like `std::sort` (Quicksort) focus purely on
 
 | Algorithm | Header | Time Complexity | Space Complexity | Resulting State |
 | :--- | :--- | :--- | :--- | :--- |
-| **LeninSort** | `lenin_sort.hpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(1)\) | Complete data egalitarianism. |
-| **KhrushchevSort** | `khrushchev_sort.hpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(1)\) | Homogeneous agricultural cornfield. |
-| **BrezhnevSort** | `brezhnev_sort.hpp` | \(\mathcal{O}(1)\) | \(\mathcal{O}(1)\) | Absolute systemic stagnation. |
-| **GorbachevSort** | `gorbachev_sort.hpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(n)\) | Total dissolution into sovereign states. |
-| **PutinSort** | `putin_sort.hpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(1)\) | Monolithic vertical of power. |
+| **LeninSort** | `leninsort.cpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(1)\) | Complete data egalitarianism. |
+| **KhrushchevSort** | `khrushchevsort.cpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(1)\) | Homogeneous agricultural cornfield. |
+| **BrezhnevSort** | `brezhnevsort.cpp` | \(\mathcal{O}(1)\) | \(\mathcal{O}(1)\) | Absolute systemic stagnation. |
+| **GorbachevSort** | `gorbachevsort.cpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(n)\) | Total dissolution into sovereign states. |
+| **PutinSort** | `putinsort.cpp` | \(\mathcal{O}(n)\) | \(\mathcal{O}(1)\) | Monolithic vertical of power. |
 
 ---
 
@@ -52,34 +52,12 @@ This is a **header-only** library. Simply clone the repository and include the h
 
 ### Directory Structure
 ```text
-├── include/
-│   ├── lenin_sort.hpp
-│   ├── khrushchev_sort.hpp
-│   ├── brezhnev_sort.hpp
-│   ├── gorbachev_sort.hpp
-│   └── putin_sort.hpp
-└── main.cpp
-```
-
-### Quick Example (`main.cpp`)
-
-```cpp
-#include <iostream>
-#include <vector>
-#include "include/lenin_sort.hpp"
-#include "include/putin_sort.hpp"
-
-int main() {
-    // LeninSort Demo
-    std::vector<int> society = {1917, 1945, 1991, 2026};
-    lenin_sort(society); // Everyone is now 1917
-    
-    // PutinSort Demo
-    std::vector<SovietData> parliament = {"Liberal", "Anarchist", "Communist"};
-    putin_sort(parliament); // Consensus reached
-    
-    return 0;
-}
+├── leninsort.cpp
+├── khrushchevsort.cpp
+├── brezhnevsort.cpp
+├── gorbachevsort.cpp
+├── putinsort.cpp
+└── README.md
 ```
 
 ### Compilation
